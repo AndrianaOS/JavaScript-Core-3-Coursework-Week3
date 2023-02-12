@@ -6,8 +6,7 @@ Take a look at the following code:
 
 ```
 1    let x = 1;
-2    function f1()
-3    {
+2    function f1(){
 4        let x = 2;
 5        console.log(x);
 6    }
@@ -15,6 +14,7 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+One is a global function and the other is a local function
 
 ## Question 2
 
@@ -34,6 +34,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+x will be logged as 10 but y is undefined outside the function and will come up with an error
 
 ## Question 3
 
